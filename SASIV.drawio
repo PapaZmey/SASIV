@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T16:16:23.285Z" agent="5.0 (Windows)" etag="VDmL1AnuzWyDsImCqMWf" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-25T16:17:42.557Z" agent="5.0 (Windows)" etag="vPgGxUFjjxy62WlBo7pF" version="20.0.3" type="github">
   <diagram id="SZfK_inIEzVROsYKz_Nr" name="Page-1">
-    <mxGraphModel dx="2272" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3220" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,8 +99,14 @@
         <mxCell id="zvDr6hN8rVWCarO8aaTl-17" value="EDIT/ADD/CREATE WINDOW&lt;br&gt;&lt;br&gt;Here player can edit&amp;nbsp; previously loaded/created character or randomly generated enemies, load another character or just start game." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="570" width="270" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zvDr6hN8rVWCarO8aaTl-18" target="zvDr6hN8rVWCarO8aaTl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zvDr6hN8rVWCarO8aaTl-18" value="&lt;div&gt;WINDOW:&lt;/div&gt;&lt;div&gt;Choose realm to play on.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Generally list of realms (maps) to play on. Should be as modular as possible to give us space for changes adding new stuff without editing previous working window / code.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1125" y="600" width="255" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-20" value="&lt;div&gt;START OF MAIN GAME&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Here comes main logic, dice, movement, anims, sounds and so on and so forth. &lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1527.5" y="612.5" width="272.5" height="105" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
