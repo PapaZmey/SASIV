@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-25T16:05:37.449Z" agent="5.0 (Windows)" etag="cMbO1BLKBHaWXQnVejFI" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-25T16:09:35.577Z" agent="5.0 (Windows)" etag="tEqL0gVF72MjDWDsjznW" version="20.0.3" type="github">
   <diagram id="SZfK_inIEzVROsYKz_Nr" name="Page-1">
     <mxGraphModel dx="2272" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,8 +56,26 @@
         <mxCell id="zvDr6hN8rVWCarO8aaTl-3" value="&lt;div&gt;Up to 4? Maybe more. &lt;br&gt;&lt;/div&gt;&lt;div&gt;Background image preferably from main menu&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-185" y="720" width="350" height="170" as="geometry" />
         </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zvDr6hN8rVWCarO8aaTl-5" target="zvDr6hN8rVWCarO8aaTl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zvDr6hN8rVWCarO8aaTl-5" target="zvDr6hN8rVWCarO8aaTl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zvDr6hN8rVWCarO8aaTl-5" value="Confirm choice / Load or create new character functionality " style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="580" width="230" height="90" as="geometry" />
+          <mxGeometry x="210" y="565" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zvDr6hN8rVWCarO8aaTl-7" target="zvDr6hN8rVWCarO8aaTl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-7" value="LOAD CHARACTER(S)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-9" value="CREATE NEW CHARACTER" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zvDr6hN8rVWCarO8aaTl-11" value="&lt;div&gt;WINDOW:&lt;/div&gt;&lt;div&gt;Fetch (if any) saved gladiators&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Player should be able to delete any saved character + add new if needed&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="290" width="265" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
