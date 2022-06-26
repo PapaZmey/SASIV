@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/interface/menus/scripts/guide_window.gd" type="Script" id=1]
+
+[node name="guide_window" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_left = 4.0
+margin_top = 706.0
+margin_right = 193.0
+margin_bottom = 766.0
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+margin_right = 189.0
+margin_bottom = 60.0
+rect_min_size = Vector2( 0, 60 )
+text = "Back"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_right = 1023.0
+margin_bottom = 676.0
+text = "Blah blah blah
+
+guide blah blah
+
+Diaz, you prick!"
